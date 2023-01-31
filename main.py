@@ -43,7 +43,7 @@ sheet_input = {
     }
 }
 header = {
-    "Authorization": "Bearer qazwsxedc"
+    "Authorization": TOKEN
 }
 
 response_sheety = requests.post(url=sheety_endpoint, json=sheet_input, headers=header)
